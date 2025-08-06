@@ -1,15 +1,29 @@
 ---
 layout: home
 title: "About"
-premalink: "/about/"
+permalink: /about/
 author_profile: true
 ---
 
-<img src="/images/profile_image_1.jpeg" width="1200" style="border-radius: 100px; margin-bottom: 20px;" alt="Diksha Bhandari"
+<img src="/images/profile_image_1.jpeg" width="280" style="float: left; margin-right: 25px; border-radius: 50%;" alt="Diksha Bhandari">
 
-Welcome! I’m **Diksha Bhandari**, a Ph.D. candidate in Mathematics at the University of Potsdam, Germany, under the supervision of Prof. Dr. Sebastian Reich. I specialize in **Bayesian inference**, **data assimilation**, and **uncertainty-aware machine learning**, with a focus on developing robust, scalable methods for simulation-based models in both engineering and language.
+Welcome! I’m **Diksha Bhandari**, a Ph.D. candidate in Mathematics at the **University of Potsdam**, Germany, working under the guidance of **Prof. Dr. Sebastian Reich**. My research lies at the intersection of **Bayesian inference**, **machine learning**, and **uncertainty-aware modeling**, particularly in simulation-based and data-assimilation contexts.
 
-My work integrates principles from applied mathematics, deep learning, and statistical inference to develop interpretable and trustworthy AI systems.
+But beyond equations and code, I’d like to tell you a little story — my story.
+
+---
+
+## 🌸 A Journey Through Curiosity and Courage
+
+I was born and raised in the lively lanes of Delhi, India, a city that dances with history, food, and fierce ambition. I spent my undergraduate years at the University of Delhi, where I fell in love with mathematics not just as a subject, but as a way of thinking. Those college days were some of the happiest — sipping chai with friends between lectures, solving problems late into the night, and learning how to ask better questions.
+
+After graduation, I moved to Nagpur to pursue my Master’s in Mathematics at VNIT. The shift from Delhi’s chaos to Nagpur’s calm was not just geographical — it was deeply personal. I learned to live independently, to navigate doubts, and to trust myself even when the next step felt unclear. It was during this time that I first stumbled upon the beauty of Bayesian thinking, and I knew I had found something I wanted to explore more deeply.
+
+That curiosity carried me across continents — to Germany, where I began my Ph.D. in Mathematics at the University of Potsdam. Leaving home wasn’t easy, but what awaited was a journey filled with discovery, resilience, and an ever-growing love for Bayesian inference, uncertainty quantification, and mathematical modeling. I now work under the guidance of Prof. Dr. Sebastian Reich, building methods that sit at the intersection of theory and real-world impact.
+
+Through it all — from Delhi’s classrooms to Nagpur’s libraries to the forested calm of Potsdam — I’ve been driven by a simple belief: to understand deeply, and to share generously.
+
+This website is a little reflection of that. I hope it brings us closer — as fellow thinkers, researchers, or just curious souls. So grab a cup of coffee, take a look around, and if something resonates with you, let’s talk.
 
 ---
 
@@ -21,41 +35,4 @@ My work integrates principles from applied mathematics, deep learning, and stati
 - Language modeling under ambiguity and cognitive modeling
 
 ---
-
-## 🎓 Education
-
-- **Ph.D. Mathematics**, University of Potsdam (2021–Present)  
-  Research exchange at the Isaac Newton Institute, Cambridge
-
-- **M.Sc. Mathematics**, VNIT Nagpur, India  
-- **B.Sc. (Hons.) Mathematics**, University of Delhi, India
-
----
-
-## 🚀 Projects
-
-- **Gradient-Free Bayesian Inference for Generative Models**  
-- **Ensemble Kalman Filters for Language Comprehension**  
-- **Affine-Invariant Sampling for Neural Network Robustness**
-
----
-
-## 📚 Publications
-
-- *Affine invariant ensemble transform methods to improve predictive uncertainty in neural networks*,  
-  [Foundations of Data Science](https://www.aimsciences.org/article/doi/10.3934/fods.2024040)
-
-- *Ensemble Kalman filter for uncertainty in human language comprehension*,  
-  [arXiv:2505.02590](https://arxiv.org/abs/2505.02590)
-
----
-
-## 📄 [Download CV](https://github.com/dikshab14/dikshab14.github.io/raw/main/files/Diksha-Bhandari-Resume.pdf)
-
----
-
-## 📬 Connect
-
-- 📧 [db141097@gmail.com](mailto:db141097@gmail.com)  
-- 🔗 [LinkedIn](https://www.linkedin.com/in/diksha-bhandari/)  
-- 📊 [Google Scholar](https://scholar.google.de/citations?user=cqxv9PAAAAAJ&hl=en)
+Thank you for visiting. I hope this space gives you a glimpse into my journey — and maybe inspires yours. 🌱

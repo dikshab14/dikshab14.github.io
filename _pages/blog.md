@@ -12,17 +12,3 @@ Every week, I share thoughts, insights, and deep-dives into topics ranging from 
 ☕ Let’s think, question, and learn together. And if something sparks your interest, feel free to [connect](/contact/) — I’d love to hear your thoughts.
 
 ---
-
-{% for post in site.posts %}
-  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% if forloop.first %}
-  <h2 id="{{ year }}">{{ year }}</h2>
-  {% else %}
-    {% capture prev_year %}{{ site.posts[forloop.index0].date | date: '%Y' }}{% endcapture %}
-    {% if year != prev_year %}
-      <h2 id="{{ year }}">{{ year }}</h2>
-    {% endif %}
-  {% endif %}
-
-  {% include archive-single.html %}
-{% endfor %}

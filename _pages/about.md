@@ -2,7 +2,6 @@
 layout: home
 title: "About"
 premalink: "/about/"
-subtitle: "Ph.D. Candidate in Mathematics | Bayesian Inference | Machine Learning | Uncertainty Quantification"
 author_profile: true
 ---
 

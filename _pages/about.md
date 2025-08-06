@@ -5,11 +5,7 @@ permalink: /about/
 author_profile: true
 ---
 
-<img src="/images/profile_image_1.jpeg" width="280" style="float: left; margin-right: 25px; border-radius: 50%;" alt="Diksha Bhandari">
-
-Welcome! I’m **Diksha Bhandari**, a Ph.D. candidate in Mathematics at the **University of Potsdam**, Germany, working under the guidance of **Prof. Dr. Sebastian Reich**. My research lies at the intersection of **Bayesian inference**, **machine learning**, and **uncertainty-aware modeling**, particularly in simulation-based and data-assimilation contexts.
-
-But beyond equations and code, I’d like to tell you a little story — my story.
+<img src="/images/profile_image_1.jpeg" width="1200" style="float: left; margin-right: 25px; border-radius: 50%;" alt="Diksha Bhandari">
 
 ---
 

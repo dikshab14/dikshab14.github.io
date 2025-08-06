@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: single
 title: "Diksha Bhandari"
 subtitle: "Ph.D. Candidate in Mathematics | Bayesian Inference | Machine Learning | Uncertainty Quantification"
 premalink: /

@@ -29,5 +29,4 @@ Developed novel sampling algorithms combining **kernel-based scoring rules** wit
 
 ## Ongoing & Miscellaneous
 
-- NLP Case Study for Amazon Nova team (LLM pretraining data quality).
-- ML Engineer interview prep using LeetCode and PyTorch NLP pipelines.
+- to be added

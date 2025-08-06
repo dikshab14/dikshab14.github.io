@@ -5,7 +5,7 @@ permalink: /about/
 author_profile: true
 ---
 
-<img src="/images/profile_image_1.jpeg" width="1200" style="float: left; margin-right: 25px; border-radius: 50%;" alt="Diksha Bhandari">
+<img src="/images/about_2.jpeg" width="959" style="float: left; margin-right: 25px; border-radius: 50%;" alt="Diksha Bhandari">
 
 ---
 

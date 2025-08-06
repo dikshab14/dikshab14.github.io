@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Diksha Bhandar"
+title                    : "Diksha Bhandari"
 title_separator          : "-"
 name                     : &name "Diksha Bhandar"
 description              : &description "Ph.D. Candidate in Applied Mathematics at University of Potsdam"
@@ -22,7 +22,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/profile_image_1.jpeg"
+  avatar           : #"/images/profile_image_1.jpeg"
   name             : "Diksha Bhandari"
   pronouns         : "she/her"  
   bio              : "Ph.D. Candidate in Applied Mathematics at the University of Potsdam"

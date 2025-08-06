@@ -5,7 +5,7 @@ subtitle: "Ph.D. Candidate in Mathematics | Bayesian Inference | Machine Learnin
 author_profile: true
 ---
 
-<img src="/images/profile_image_1.jpg" width="100" style="border-radius: 100px; margin-bottom: 20px;" alt="Diksha Bhandari">
+<img src="/images/profile.jpg" width="200" style="border-radius: 100px; margin-bottom: 20px;" alt="Diksha Bhandari">
 
 Welcome! I’m **Diksha Bhandari**, a Ph.D. candidate in Mathematics at the University of Potsdam, Germany, under the supervision of Prof. Dr. Sebastian Reich. I specialize in **Bayesian inference**, **data assimilation**, and **uncertainty-aware machine learning**, with a focus on developing robust, scalable methods for simulation-based models in both engineering and language.
 

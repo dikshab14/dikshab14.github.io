@@ -6,7 +6,8 @@ premalink: /
 author_profile: false
 ---
 
-Welcome! I’m **Diksha Bhandari**, a Ph.D. candidate in Mathematics at the University of Potsdam, Germany, under the supervision of Prof. Dr. Sebastian Reich. I specialize in **Bayesian inference**, **data assimilation**, and **uncertainty-aware machine learning**, with a focus on developing robust, scalable methods for simulation-based models in both engineering and language.
+Welcome to my page! 
+I’m **Diksha Bhandari**, a Ph.D. candidate in Mathematics at the University of Potsdam, Germany. I specialize in **Bayesian inference**, **data assimilation**, and **uncertainty-aware machine learning**, with a focus on developing robust, scalable methods for simulation-based models in both engineering and language.
 
 My work integrates principles from applied mathematics, deep learning, and statistical inference to develop interpretable and trustworthy AI systems.
 
@@ -32,9 +33,9 @@ My work integrates principles from applied mathematics, deep learning, and stati
 
 ## 🚀 Projects
 
-- **Gradient-Free Bayesian Inference for Generative Models**  
-- **Ensemble Kalman Filters for Language Comprehension**  
-- **Affine-Invariant Sampling for Neural Network Robustness**
+- Gradient-Free Bayesian Inference for Generative Models
+- Ensemble Kalman Filters for Language Comprehension 
+- Affine-Invariant Sampling for Neural Network Robustness
 
 ---
 

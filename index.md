@@ -12,3 +12,4 @@ I’m **Diksha Bhandari**, a Ph.D. candidate in Mathematics at the University of
 
 My work integrates principles from applied mathematics, deep learning, and statistical inference to develop interpretable and trustworthy AI systems.
 
+

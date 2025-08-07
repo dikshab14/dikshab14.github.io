@@ -53,7 +53,7 @@ layout: default
         background-color: #ffffff;
       }
 
-      .sidebar, .page__footer {
+      .sidebar{
         display: none;
       }
     </style>
@@ -67,13 +67,6 @@ layout: default
       <div class="container">
         {{ content }}
       </div>
-    </div>
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
     </div>
 
     {% include scripts.html %}

@@ -67,11 +67,12 @@ Publications
 
 - **Diksha Bhandari**, Alessandro Lopopolo, Milena Rabovsky, Sebastian Reich.  
   *Ensemble Kalman filter for uncertainty in human language comprehension.*  
-   arXiv preprint [arXiv:2505.02590](https://arxiv.org/abs/2505.02590), 2024.
+  [Read preprint](https://arxiv.org/abs/2505.02590)
 
 - **Diksha Bhandari**, Jakiw Pidstrigach, Sebastian Reich.  
   *Affine invariant ensemble transform methods to improve predictive uncertainty in neural networks.*
-  Foundations of Data Science, 2025, 7(2): 581-616. doi: 10.3934/fods.2024040  
+  Foundations of Data Science, 2025
+  [Read](https://www.aimsciences.org/article/doi/10.3934/fods.2024040)
   
 
 ---

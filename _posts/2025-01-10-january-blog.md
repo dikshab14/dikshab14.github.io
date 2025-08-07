@@ -1,5 +1,5 @@
 ---
-title: "Introducing My Blog"
+title: "Introducing my blog"
 date: 2025-01-10
 categories: [Blog]
 author_profile: false

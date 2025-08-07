@@ -3,6 +3,7 @@ layout: single
 title: "Contact"
 permalink: /contact/
 author_profile: false
+show_author: false
 ---
 
 If you're working on something exciting in machine learning, AI, or engineering — or if you’re looking for a collaborator, speaker, or just someone to exchange ideas with — I’d love to hear from you!

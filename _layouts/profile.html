@@ -11,36 +11,32 @@ layout: default
     <div class="page__inner-wrap">
       <section class="page__content" itemprop="text">
 
-        <div style="display: flex; flex-wrap: nowrap; height: 100vh; overflow: hidden;">
+        <div style="display: flex; flex-wrap: wrap;">
 
           <!-- Left: Sticky Image Section -->
           <div style="
             flex: 0 0 35%;
-            background-color: #ddd7d7;;
+            background-color: #ddd7d7;
             padding: 30px;
             min-width: 300px;
             border-right: 5px solid white;
             position: sticky;
-            top: 0;
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            top: 80px;
+            height: fit-content;
+            align-self: flex-start;
           ">
             <img src="/images/profile_image_1.jpeg"
                  alt="Diksha Bhandari"
                  style="width: 90%; max-width: 300px; border-radius: 16px; box-shadow: 0 0 8px rgba(0,0,0,0.1);">
           </div>
 
-          <!-- Right: Scrollable Content Section -->
+          <!-- Right: Scrolls with page -->
           <div 
           style="
             flex: 1;
             padding: 40px;
-            background-color: #e9bc89; /* Matte red */
+            background-color: #e9bc89; 
             color: rgb(0, 0, 0);
-            overflow-y: auto;
-            height: 100vh;
           ">
             {{ content }}
           </div>

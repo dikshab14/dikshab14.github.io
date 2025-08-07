@@ -5,7 +5,7 @@ permalink: /about/
 author_profile: false
 ---
 
-## A Journey Through Curiosity and Courage
+## A Journey through curiosity and courage
 
 I was born and raised in the lively lanes of Delhi, India, a city that dances with history, food, and fierce ambition. I spent my undergraduate years at the University of Delhi, where I fell in love with mathematics not just as a subject, but as a way of thinking. Those college days were some of the happiest, sipping chai with friends between lectures, solving problems late into the night, and learning how to ask better questions.
 
@@ -19,7 +19,7 @@ This website is a little reflection of that. I hope it brings us closer — as f
 
 ---
 
-## 🔬 Research Interests
+## Research Interests
 
 - Generalized Bayesian inference & loss-based posteriors  
 - Ensemble Kalman filtering and gradient-free methods  

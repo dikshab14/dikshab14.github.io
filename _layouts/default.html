@@ -11,10 +11,11 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body>
+  <body{% if page.url == "/" %} class="no-scroll-home"{% endif %}>
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
+
 
     {{ content }}
 

@@ -58,4 +58,3 @@ My work integrates principles from applied mathematics, deep learning, and stati
 
 - 📧 [db141097@gmail.com](mailto:db141097@gmail.com)  
 - 🔗 [LinkedIn](https://www.linkedin.com/in/diksha-bhandari/)  
-- 📊 [Google Scholar](https://scholar.google.de/citations?user=cqxv9PAAAAAJ&hl=en)

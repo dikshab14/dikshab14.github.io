@@ -3,7 +3,7 @@ layout: single
 title: "Diksha Bhandari"
 subtitle: "Ph.D. Candidate in Mathematics | Bayesian Inference | Machine Learning | Uncertainty Quantification"
 premalink: /
-author_profile: true
+author_profile: false
 ---
 
 <div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 20px;">

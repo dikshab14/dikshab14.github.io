@@ -1,16 +1,9 @@
 ---
-title: "Introducing My Blog"
+title: "What is Bayesian approach"
 date: 2025-02-15
 categories: [Blog]
+author_profile: false
 ---
 
-Welcome to my blog! I'm Diksha Bhandari, a Ph.D. candidate in Applied Mathematics.
 
-Here, I’ll be writing every week about topics I care deeply about:  
-- Research updates  
-- Applied math in real life  
-- Machine learning techniques  
-- Life as a doctoral researcher  
-- Reflections and ideas  
-
-Let's connect through ideas—and maybe even collaborate!
+Bayesian is magic we do to know the surity of accuracy.

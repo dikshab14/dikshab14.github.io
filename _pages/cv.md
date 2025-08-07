@@ -116,7 +116,7 @@ Professional Profiles
 
 Download CV
 ======
-
+{% include cv-template.html %}
 <div class="cv-download-links">
   <a href="{{ base_path }}/files/Diksha-Bhandari-Resume.pdf" class="btn btn--primary">Download CV as PDF</a>
 </div>

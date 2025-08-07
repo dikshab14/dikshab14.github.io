@@ -5,7 +5,7 @@ layout: default
 
 <div id="main" role="main">
   <div style="max-width: 800px; margin: auto; padding: 2rem; background-color: #f8dfc6; border-radius: 12px;">
-    <h1 style="text-align: center; margin-bottom: 2rem;">📝 Blog Archive</h1>
+    <h1 style="text-align: center; margin-bottom: 2rem;"> Blog </h1>
 
     {% assign sorted_posts = site.posts | sort: "date" | reverse %}
     {% assign grouped_years = sorted_posts | group_by_exp: "post", "post.date | date: '%Y'" %}

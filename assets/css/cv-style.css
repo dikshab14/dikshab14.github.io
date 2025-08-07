@@ -234,21 +234,3 @@
   }
 }
 
-.no-scroll-home {
-  html, body {
-    height: 100%;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-  }
-
-  #main {
-    height: 100vh;
-    display: flex;
-  }
-
-  .scrollable-content {
-    overflow-y: auto;
-    height: 100vh;
-  }
-}

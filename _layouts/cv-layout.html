@@ -5,7 +5,7 @@ layout: default
 {% include base_path %}
 
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,7 +20,7 @@ layout: default
       body.cv-layout {
         margin: 0;
         padding: 0;
-        background-color: #ffffff; /* Page background stays white */
+        background-color: #ffffff;
         font-family: sans-serif;
       }
 
@@ -31,7 +31,7 @@ layout: default
       }
 
       .container {
-        background-color: #f8dfc6;  /* Light beige background only for CV text */
+        background-color: #f8dfc6;
         padding: 2rem 3rem;
         max-width: 900px;
         width: 100%;
@@ -41,16 +41,35 @@ layout: default
         text-align: left;
       }
 
-      .container h1, 
-      .container h2, 
-      .container h3, 
+      .container h1,
+      .container h2,
+      .container h3,
       .container p {
         text-align: left;
         margin-bottom: 1rem;
       }
 
-      .sidebar{
+      .cv-download-links {
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+
+      .sidebar, .page__footer {
         display: none;
+      }
+
+      .btn {
+        padding: 10px 20px;
+        background-color: #5c5c5c;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+      }
+
+      .btn:hover {
+        background-color: #333;
       }
     </style>
   </head>
@@ -61,8 +80,20 @@ layout: default
 
     <div id="main" role="main">
       <div class="container">
+        {% if page.title %}
+          <h1 style="text-align: center; font-size: 2.2rem; margin-top: 0; margin-bottom: 2rem;">
+            {{ page.title }}
+          </h1>
+        {% endif %}
         {{ content }}
       </div>
+    </div>
+
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
     </div>
 
     {% include scripts.html %}

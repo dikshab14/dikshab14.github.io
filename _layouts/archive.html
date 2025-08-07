@@ -14,16 +14,35 @@ layout: default
 
 <div id="main" role="main">
 
-  <div style="display: flex; flex-direction: column; align-items: center; padding: 2rem;">
+  <!-- Combined Wrapper: Side-by-side layout with unified background -->
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; padding: 2rem;">
 
-    <!-- Image Section with Gray Background -->
-    <div style="background-color: #e0e0e0; padding: 2rem; border-radius: 12px; max-width: 800px; width: 100%; text-align: center;">
-      <img src="/images/about_2.jpeg" alt="Diksha Bhandari" 
-           style="width: 300px; max-width: 90%; border-radius: 16px; box-shadow: 0 0 8px rgba(0,0,0,0.1);">
+    <!-- Image Section (Left) -->
+    <div style="
+      flex: 0 0 300px;
+      background-color: #e0e0e0;
+      padding: 2rem;
+      border-top-left-radius: 16px;
+      border-bottom-left-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    ">
+      <img src="/images/about_2.jpeg"
+           alt="Diksha Bhandari"
+           style="width: 100%; max-width: 250px; border-radius: 12px; box-shadow: 0 0 8px rgba(0,0,0,0.1);">
     </div>
 
-    <!-- Text Section with Light Matte Background -->
-    <div style="background-color: #f8dfc6; padding: 2rem; border-radius: 12px; max-width: 800px; width: 100%; margin-top: 1.5rem;">
+    <!-- Text Section (Right) -->
+    <div style="
+      flex: 1;
+      min-width: 300px;
+      background-color: #f8dfc6;
+      padding: 2rem;
+      border-top-right-radius: 16px;
+      border-bottom-right-radius: 16px;
+      color: #000;
+    ">
       <h1 class="page__title" style="text-align: center;">{{ page.title }}</h1>
       {{ content }}
     </div>

@@ -112,9 +112,10 @@ Professional Profiles
 - [GitHub](https://github.com/dikshab14)  
 - [Instagram](https://instagram.com/diksha_bhandari14)
 
+---
+
 Download CV
 ======
 <div class="cv-download-links">
   <a href="{{ base_path }}/files/Diksha-Bhandari-Resume.pdf" class="btn btn--primary">Download CV as PDF</a>
-  <a href="{{ base_path }}" class="btn btn--inverse">View Markdown CV</a>
 </div>

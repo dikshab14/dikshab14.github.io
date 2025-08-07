@@ -1,5 +1,5 @@
 ---
-title: "What is Bayesian approach"
+title: "What is Bayesian approach ?"
 date: 2025-02-15
 categories: [Blog]
 author_profile: false

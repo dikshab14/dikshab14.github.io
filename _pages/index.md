@@ -8,7 +8,7 @@ author_profile: true
 
 <div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 20px;">
 
-  <div style="flex: 1; min-width: 250px; max-width: 350px;">
+  <div style="flex: 1; min-width: 250px; max-width: 1200px;">
     <img src="/images/profile_image_1.jpeg" width="1200" style="border-radius: 20px;" alt="Diksha Bhandari">
   </div>
 

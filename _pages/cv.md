@@ -64,17 +64,21 @@ Skills
 
 Publications
 ======
-<ul>{% for post in site.publications reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
+
+- **Diksha Bhandari**, Alessandro Lopopolo, Milena Rabovsky, Sebastian Reich.  
+  *Ensemble Kalman filter for uncertainty in human language comprehension.*  
+   arXiv preprint [arXiv:2505.02590](https://arxiv.org/abs/2505.02590), 2024.
+
+- **Diksha Bhandari**, Jakiw Pidstrigach, Sebastian Reich.  
+  *Affine invariant ensemble transform methods to improve predictive uncertainty in neural networks.*
+  Foundations of Data Science, 2025, 7(2): 581-616. doi: 10.3934/fods.2024040  
+  
 
 ---
 
 Talks & Conferences
 ======
-<ul>{% for post in site.talks reversed %}
-  {% include archive-single-talk-cv.html  %}
-{% endfor %}</ul>
+
 
 - **Amazon StatML Workshop**, Berlin (2024)  
 - **ISDA 2023**, Bologna, Italy  
@@ -85,9 +89,6 @@ Talks & Conferences
 
 Teaching
 ======
-<ul>{% for post in site.teaching reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
 
 - **Lecturer, Theory of Machine Learning**, University of Potsdam (Winter 2024–25)
 
@@ -105,7 +106,6 @@ Certificates
 
 Professional Profiles
 ======
-- [Google Scholar](https://scholar.google.com/citations?user=PS_CX0AAAAAJ)  
 - [arXiv](https://arxiv.org/abs/2505.02590)  
 - [LinkedIn](https://www.linkedin.com/in/diksha-bhandari/)  
 - [GitHub](https://github.com/dikshab14)  

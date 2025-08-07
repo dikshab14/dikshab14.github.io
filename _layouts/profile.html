@@ -10,21 +10,23 @@ layout: default
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     <div class="page__inner-wrap">
       <section class="page__content" itemprop="text">
-        <div style="display: flex; flex-direction: row; gap: 40px; align-items: flex-start; flex-wrap: wrap;">
 
-          <!-- Left: Sticky Profile Image -->
-          <div style="flex: 0 0 35%; position: sticky; top: 100px; height: fit-content;">
+        <div style="display: flex; flex-direction: row; gap: 0px; flex-wrap: wrap;">
+
+          <!-- Left: Profile Image Section (Silver Gray Background) -->
+          <div style="flex: 0 0 35%; background-color: #f2f2f2; padding: 30px; min-width: 300px; border-right: 5px solid white;">
             <img src="/images/profile_image_1.jpeg"
                  alt="Diksha Bhandari"
                  style="width: 100%; border-radius: 16px; box-shadow: 0 0 8px rgba(0,0,0,0.1);">
           </div>
 
-          <!-- Right: Main Page Content -->
-          <div style="flex: 1; min-width: 300px;">
+          <!-- Right: Text Content Section (Matte Red Background) -->
+          <div style="flex: 1; background-color: #b22222; padding: 40px; color: white; min-width: 300px;">
             {{ content }}
           </div>
 
         </div>
+
       </section>
     </div>
   </article>

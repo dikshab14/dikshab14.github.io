@@ -3,36 +3,44 @@ layout: default
 ---
 
 <div id="main" role="main">
-  <div style="padding: 2rem; max-width: 800px; margin: auto;">
-    <h1 style="text-align: center; margin-bottom: 2rem;">Blog Archive</h1>
+  <div style="
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+    background-color: #f8dfc6;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.05);
+    ">
 
-    {% assign years = site.posts | map: "date" | map: "year" | uniq | reverse %}
-    {% for year in years %}
-      <h2 style="border-bottom: 1px solid #ccc; padding-bottom: 0.3em;">{{ year }}</h2>
+    <h1 style="text-align: center; margin-bottom: 2rem;">📝 Blog Archive</h1>
 
-      {% assign year_posts = site.posts | where_exp: "post", "post.date | date: '%Y' == year" %}
-      {% assign months = year_posts | map: "date" | map: "month" | uniq %}
+    {% assign sorted_posts = site.posts | sort: "date" | reverse %}
+    {% assign grouped_years = sorted_posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+
+    {% for year_group in grouped_years %}
+      <h2 style="border-bottom: 2px solid #aaa; padding-bottom: 0.3em; margin-top: 2rem;">{{ year_group.name }}</h2>
+
+      {% assign grouped_months = year_group.items | group_by_exp: "post", "post.date | date: '%m'" %}
       {% assign month_names = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
 
-      {% for month in months %}
-        {% assign month_index = month | minus: 1 %}
-        <h3 style="margin-left: 1rem; color: #444;">{{ month_names[month_index] }}</h3>
+      {% for month_group in grouped_months %}
+        {% assign month_index = month_group.name | plus: 0 %}
+        <h3 style="margin-left: 1rem; color: #444;">{{ month_names[month_index - 1] }}</h3>
+
         <ul style="list-style: none; padding-left: 1rem;">
-          {% for post in year_posts %}
-            {% assign post_month = post.date | date: "%m" | plus: 0 %}
-            {% if post_month == month %}
-              <li style="margin: 0.5rem 0;">
-                <a href="{{ post.url }}" style="text-decoration: none; color: #000; font-weight: 500;">
-                  {{ post.title }}
-                </a> 
-                <span style="color: #666; font-size: 0.9em;">
-                  ({{ post.date | date: "%d %B %Y" }})
-                </span>
-              </li>
-            {% endif %}
+          {% for post in month_group.items %}
+            <li style="margin: 0.5rem 0;">
+              <a href="{{ post.url }}" style="text-decoration: none; color: #000; font-weight: 600;">
+                {{ post.title }}
+              </a>
+              <span style="color: #666; font-size: 0.85em;">
+                ({{ post.date | date: "%d %B %Y" }})
+              </span>
+            </li>
           {% endfor %}
         </ul>
       {% endfor %}
     {% endfor %}
+
   </div>
 </div>

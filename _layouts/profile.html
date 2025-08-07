@@ -11,14 +11,16 @@ layout: default
     <div class="page__inner-wrap">
       <section class="page__content" itemprop="text">
 
-        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; padding: 2rem;">
+        <!-- Wrapper: No gap between image and text background -->
+        <div style="display: flex; flex-wrap: wrap; justify-content: center;">
 
-          <!-- Image Section -->
+          <!-- Image Section (Left) -->
           <div style="
             flex: 0 0 300px;
             background-color: #ddd7d7;
             padding: 2rem;
-            border-radius: 16px;
+            border-top-left-radius: 16px;
+            border-bottom-left-radius: 16px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -28,15 +30,15 @@ layout: default
                  style="width: 100%; max-width: 250px; border-radius: 12px; box-shadow: 0 0 8px rgba(0,0,0,0.1);">
           </div>
 
-          <!-- Text Content Section -->
+          <!-- Text Section (Right) -->
           <div style="
             flex: 1;
             min-width: 300px;
             background-color: #e9bc89;
             padding: 2rem;
-            border-radius: 16px;
+            border-top-right-radius: 16px;
+            border-bottom-right-radius: 16px;
             color: #000;
-            max-width: 700px;
           ">
             {{ content }}
           </div>

@@ -14,20 +14,21 @@ layout: default
 
 <div id="main" role="main">
 
-  <div style="display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: center; padding: 2rem; gap: 2rem;">
+  <div style="display: flex; flex-direction: column; align-items: center; padding: 2rem; gap: 2rem;">
 
-    <!-- Image on Left -->
-    <div style="flex: 0 0 300px; text-align: center;">
+    <!-- Image on Top -->
+    <div style="text-align: center;">
       <img src="/images/about_2.jpeg" alt="Diksha Bhandari" 
-           style="max-width: 100%; border-radius: 16px; box-shadow: 0 0 8px rgba(0,0,0,0.1);">
+           style="width: 300px; max-width: 90%; border-radius: 16px; box-shadow: 0 0 8px rgba(0,0,0,0.1);">
     </div>
 
-    <!-- Text on Right with Background -->
-    <div style="flex: 1; background-color: #f8dfc6; padding: 2rem; border-radius: 12px; max-width: 800px;">
+    <!-- Text Below with Background -->
+    <div style="background-color: #f8dfc6; padding: 2rem; border-radius: 12px; max-width: 800px; width: 100%;">
       <h1 class="page__title" style="text-align: center;">{{ page.title }}</h1>
       {{ content }}
     </div>
 
   </div>
-  
+
 </div>
+

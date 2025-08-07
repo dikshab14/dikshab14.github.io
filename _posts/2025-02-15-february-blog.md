@@ -1,6 +1,6 @@
 ---
 title: "Introducing My Blog"
-date: 2025-08-06
+date: 2025-02-15
 categories: [Blog]
 ---
 

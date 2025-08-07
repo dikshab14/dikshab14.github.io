@@ -1,0 +1,35 @@
+---
+layout: default
+title: "Blog"
+permalink: /blog/
+---
+
+<div id="main" role="main">
+  <div style="padding: 2rem; max-width: 800px; margin: auto;">
+    <h1 style="text-align: center; margin-bottom: 2rem;">Blog Archive</h1>
+
+    {% assign years = site.posts | map: "date" | map: "year" | uniq | reverse %}
+    {% for year in years %}
+      <h2 style="border-bottom: 1px solid #ccc; padding-bottom: 0.3em;">{{ year }}</h2>
+
+      {% assign year_posts = site.posts | where_exp: "post", "post.date | date: '%Y' == year" %}
+      {% assign months = year_posts | map: "date" | map: "month" | uniq %}
+      {% assign month_names = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
+
+      {% for month in months %}
+        {% assign month_index = month | minus: 1 %}
+        <h3 style="margin-left: 1rem; color: #444;">{{ month_names[month_index] }}</h3>
+        <ul>
+          {% for post in year_posts %}
+            {% assign post_month = post.date | date: "%m" | plus: 0 %}
+            {% if post_month == month %}
+              <li style="margin-left: 2rem;">
+                <a href="{{ post.url }}">{{ post.title }}</a> <small>({{ post.date | date: "%d %B %Y" }})</small>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      {% endfor %}
+    {% endfor %}
+  </div>
+</div>

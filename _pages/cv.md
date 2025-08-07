@@ -112,7 +112,7 @@ Professional Profiles
 - [GitHub](https://github.com/dikshab14)  
 - [Instagram](https://instagram.com/diksha_bhandari14)
 
----
+
 
 Download CV
 ======

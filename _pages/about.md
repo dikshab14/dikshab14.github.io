@@ -27,4 +27,4 @@ This website is a little reflection of that. I hope it brings us closer — as f
 - Language modeling under ambiguity and cognitive modeling
 
 ---
-Thank you for visiting. I hope this space gives you a glimpse into my journey and maybe inspires yours. 🌱
+Thank you for visiting. I hope this space gives you a glimpse into my journey and maybe inspires yours.

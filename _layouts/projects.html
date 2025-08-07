@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+
+  <!-- Combined Wrapper: Side-by-side layout with unified background -->
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; padding: 2rem;">
+
+    <!-- Image Section (Left) -->
+    <div style="
+      flex: 0 0 300px;
+      background-color: #e0e0e0;
+      padding: 2rem;
+      border-top-left-radius: 16px;
+      border-bottom-left-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    ">
+      <img src="/images/project_1.jpeg"
+           alt="Diksha Bhandari"
+           style="width: 100%; max-width: 250px; border-radius: 12px; box-shadow: 0 0 8px rgba(0,0,0,0.1);">
+    </div>
+
+    <!-- Text Section (Right) -->
+    <div style="
+      flex: 1;
+      min-width: 300px;
+      background-color: #f8dfc6;
+      padding: 2rem;
+      border-top-right-radius: 16px;
+      border-bottom-right-radius: 16px;
+      color: #000;
+    ">
+      <h1 class="page__title" style="text-align: center;">{{ page.title }}</h1>
+      {{ content }}
+    </div>
+
+  </div>
+
+</div>

@@ -11,14 +11,16 @@ layout: compress
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %} | {{ site.name | default: site.title }}</title>
+
     {% include head.html %}
     {% include head/custom.html %}
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/cv-layout.css">
+
     <style>
       body.cv-layout {
-        background-color: #f8dfc6;
         margin: 0;
         padding: 0;
+        background-color: #ffffff; /* Page background stays white */
         font-family: sans-serif;
       }
 
@@ -29,26 +31,30 @@ layout: compress
       }
 
       .container {
-        background-color: #f8dfc6;
-        padding: 2rem;
+        background-color: #f8dfc6;  /* Light beige background only for CV text */
+        padding: 2rem 3rem;
         max-width: 900px;
         width: 100%;
-        box-sizing: border-box;
         border-radius: 12px;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+        color: #000000;
+        text-align: left;
       }
 
-      h1, h2, h3, h4, p {
-        text-align: center;
-        color: #000;
-      }
-
-      /* Optional: Remove sidebar margins if using sidebar.html */
-      .sidebar {
-        display: none;
+      .container h1, 
+      .container h2, 
+      .container h3, 
+      .container p {
+        text-align: left;
+        margin-bottom: 1rem;
       }
 
       footer {
-        background-color: #f8dfc6;
+        background-color: #ffffff;
+      }
+
+      .sidebar, .page__footer {
+        display: none;
       }
     </style>
   </head>
@@ -63,14 +69,6 @@ layout: compress
       </div>
     </div>
 
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
-
     {% include scripts.html %}
-
   </body>
 </html>

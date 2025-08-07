@@ -14,7 +14,7 @@ title_separator          : "-"
 name                     : &name "Diksha bhandari"
 description              : &description "Ph.D. Candidate in Applied Mathematics at University of Potsdam"
 url                      : https://dikshab14.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  : #"" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -22,9 +22,9 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : #"/images/profile_image_1.jpeg"
+  avatar           : "/images/profile_image_1.jpeg"
   name             : "Diksha Bhandari"
-  pronouns         : "she/her"  
+  pronouns         : #"she/her"  
   bio              : "Ph.D. Candidate in Applied Mathematics at the University of Potsdam"
   location         : "Berlin, Germany"
   employer         : "University of Potsdam"
@@ -36,7 +36,7 @@ author:
   arxiv            : "https://arxiv.org/abs/2505.02590"
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   orcid            : #"http://orcid.org/yourorcidurl"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
 

@@ -2,11 +2,7 @@
 layout: archive
 title: "About"
 permalink: /about/
-author_profile: true
----
-
-<img src="/images/about_2.jpeg" width="959" style="float: left; margin-right: 25px; border-radius: 50%;" alt="Diksha Bhandari">
-
+author_profile: false
 ---
 
 ## 🌸 A Journey Through Curiosity and Courage

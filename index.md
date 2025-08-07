@@ -6,19 +6,24 @@ premalink: /
 author_profile: false
 ---
 
-<div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 20px;">
+<div style="display: flex; flex-direction: row; gap: 40px; align-items: flex-start;">
 
-  <div style="flex: 1 1 40%; max-width: 300 px;">
-    <img src="/images/profile_image_1.jpeg" width="1200" style="border-radius: 20px;" alt="Diksha Bhandari">
+  <!-- Sticky Left Column: Image -->
+  <div style="flex: 0 0 35%; position: sticky; top: 100px; height: fit-content;">
+    <img src="/images/profile_image_1.jpeg" alt="Diksha Bhandari"
+         style="width: 100%; border-radius: 16px; box-shadow: 0 0 8px rgba(0,0,0,0.1);">
   </div>
 
-  <div style="flex: 1 1 60%; min-width: 300px;">
+  <!-- Right Column: Scrollable Bio Content -->
+  <div style="flex: 1; min-width: 300px;">
 
 Welcome! I’m **Diksha Bhandari**, a Ph.D. candidate in Mathematics at the University of Potsdam, Germany, under the supervision of Prof. Dr. Sebastian Reich. I specialize in **Bayesian inference**, **data assimilation**, and **uncertainty-aware machine learning**, with a focus on developing robust, scalable methods for simulation-based models in both engineering and language.
 
 My work integrates principles from applied mathematics, deep learning, and statistical inference to develop interpretable and trustworthy AI systems.
+
   </div>
 </div>
+
 
 
 ---
